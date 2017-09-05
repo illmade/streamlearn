@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Frisby Test: Ensure response has proper JSON types in specified keys" errors="0" tests="1" failures="0" time="0.217" timestamp="2017-07-11T11:29:27">
+  <testcase classname="Frisby Test: Ensure response has proper JSON types in specified keys" name="
+	[ POST http://localhost:3000/topics ]" time="0.213"></testcase>
+</testsuite>
+</testsuites>

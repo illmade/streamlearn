@@ -1,9 +1,18 @@
+*.DS_Store
+.idea
+
+learn/project/target/
+learn/target/
+learn/data/ml/
+learn/project/project/target/
+
+kafka-express/reports/
 # Logs
-logs
+kafka-express/logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+kafka-express/npm-debug.log*
+kafka-express/yarn-debug.log*
+kafka-express/yarn-error.log*
 
 # Runtime data
 pids
@@ -18,41 +27,41 @@ lib-cov
 coverage
 
 # nyc test coverage
-.nyc_output
+kafka-express/.nyc_output
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+kafka-express/.grunt
 
 # Bower dependency directory (https://bower.io/)
 bower_components
 
 # node-waf configuration
-.lock-wscript
+kafka-express/.lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
-node_modules/
-jspm_packages/
+kafka-express/node_modules/
+kafka-express/jspm_packages/
 
 # Typescript v1 declaration files
 typings/
 
 # Optional npm cache directory
-.npm
+kafka-express/.npm
 
 # Optional eslint cache
-.eslintcache
+kafka-express/.eslintcache
 
 # Optional REPL history
-.node_repl_history
+kafka-express/.node_repl_history
 
 # Output of 'npm pack'
 *.tgz
 
 # Yarn Integrity file
-.yarn-integrity
+kafka-express/.yarn-integrity
 
 # dotenv environment variables file
 .env
