@@ -4,7 +4,7 @@ nodejs to kafka to spark-ml
 
 I was interested in using Kafka as the head of a continuous application environment: 
 all events writing to kafka first and everything else reacting. This was something I
-had seen as idea but without much in the way of implementation.
+had seen as an idea but without much in the way of implementation.
 
 So here we create a minimal nodejs-express app. To connect to kafka we use
 
@@ -25,10 +25,10 @@ a Gradient Boosted Tree model - trained using SplitCensus and ProcessCensus in
 
 # but why?
 
-with tiny bit of kafka code on the nodejs app events can be stored and maintained. Kafka can deal 
+with a tiny bit of kafka code on the nodejs app events can be stored and maintained. Kafka can deal 
 with the lifecycle by applying topic based rules.
 
-Monitoring doesn't have to go to a database and it can run high cost evaluations like machine learning  at will
+Monitoring doesn't have to go to a database and it can run high cost evaluations like machine learning at will
 from other machines.
 
 
